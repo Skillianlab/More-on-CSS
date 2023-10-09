@@ -1,0 +1,36 @@
+/* Style the main content */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
+}
+.About-us {
+  font-family: "Oswald", sans-serif; /* Use Oswald font */
+  font-size: 2rem;
+  display: flex;
+  flex-direction: left;
+  justify-content: center;
+  padding: 20px 20px 20px 20px;
+}
+/* Style the Montserrat font paragraph */
+.New-font {
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font */
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+/* Style the Google Fonts image */
+.About-us-image {
+  max-width: 100%; /* Adjust the image width to fit its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  width: 1000px;
+  max-height: 1000px;
+
+  padding-top: 30px;
+}

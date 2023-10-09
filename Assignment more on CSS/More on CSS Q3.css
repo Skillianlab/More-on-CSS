@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body,
+ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #328eea;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 50px;
+  padding: 10px;
+}
+
+li {
+  padding: 50px;
+}
+
+/* Style navigation items */
+.nav-item {
+  border: 2px solid transparent; /* Add a transparent border to each item */
+  padding: 5px 5px;
+}
+
+/* Style navigation item links */
+.nav-item1 a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, border-color 0.3s; /* Add transitions for smooth color and border changes */
+}
+
+/* Change text color and border style on hover */
+.nav-item1:hover a {
+  color: #ff5733; /* Change to your desired hover color */
+  border-style: dotted; /* Change to your desired border style */
+}
+.nav-item2 a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, border-color 0.3s; /* Add transitions for smooth color and border changes */
+}
+
+/* Change text color and border style on hover */
+.nav-item2:hover a {
+  color: #ff5733; /* Change to your desired hover color */
+  border-style: double; /* Change to your desired border style */
+}
+.nav-item3 a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, border-color 0.3s; /* Add transitions for smooth color and border changes */
+}
+
+/* Change text color and border style on hover */
+.nav-item3:hover a {
+  color: #ff5733; /* Change to your desired hover color */
+  border-style: dashed; /* Change to your desired border style */
+}
+.nav-item4 a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, border-color 0.3s; /* Add transitions for smooth color and border changes */
+}
+
+/* Change text color and border style on hover */
+.nav-item4:hover a {
+  color: #ff5733; /* Change to your desired hover color */
+  border-style: solid; /* Change to your desired border style */
+}
+.nav-item5 a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s, border-color 0.3s; /* Add transitions for smooth color and border changes */
+}
+
+/* Change text color and border style on hover */
+.nav-item5:hover a {
+  color: #ff5733; /* Change to your desired hover color */
+  border-style: groove; /* Change to your desired border style */
+}
